@@ -14,14 +14,3 @@ export namespace ucs2 {
 }
 
 export const version: string;
-
-declare const punycode: {
-    decode: typeof decode;
-    encode: typeof encode;
-    toUnicode: typeof toUnicode;
-    toASCII: typeof toASCII;
-    ucs2: typeof ucs2;
-    version: typeof version;
-};
-
-export default punycode;
