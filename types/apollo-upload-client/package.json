@@ -17,13 +17,16 @@
         },
         "./package.json": "./package.json"
     },
-    "dependencies": {
+    "peerDependencies": {
         "@apollo/client": "^4.0.0",
         "@types/extract-files": "*",
         "graphql": "14 - 16"
     },
     "devDependencies": {
-        "@types/apollo-upload-client": "workspace:."
+      "@apollo/client": "^4.0.0",
+      "@types/apollo-upload-client": "workspace:.",
+      "@types/extract-files": "*",
+      "graphql": "14 - 16"
     },
     "owners": [
         {
